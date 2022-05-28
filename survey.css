@@ -1,0 +1,51 @@
+//*h1{
+    text-align:center;
+    
+   
+}
+body{
+    background-color: aqua;
+    border:5px solid aqua;
+}
+form{
+    text-align:center;
+    width:80%;
+    margin:0 auto;
+    float:right;
+    text-align:center;
+}
+input[type=text]{
+   
+    padding:12px 20px;
+    margin:4px;
+    box-sizing:border-box;
+    border-radius:2px;
+    display:inline-block;
+
+}*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+  }
+  body{
+    background: aqua;
+    padding: 0 10px;
+  }
+  h1{
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #fec107;
+    text-transform: lowercase;
+    text-align: center;
+  }
+  name{
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+  }
+  .form{
+      width:100%;
+  }
